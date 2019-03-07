@@ -450,7 +450,7 @@ void SaveBadBlockTable(unsigned char dieState[], unsigned int tempBbtBufAddr[], 
 			}
 
 		loop++;
-		dataSize++;
+		tempPage++;
 		dataSize -= BYTES_PER_DATA_REGION_OF_PAGE;
 	}
 
